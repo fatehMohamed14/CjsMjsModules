@@ -1,8 +1,8 @@
-data1 = require("./commonjsModule");
-console.log(data1());
+loading = require("./commonjsModule");
+console.log(loading());
 
 async function loadEsmModule() {
   let m = await import("./esmModule.mjs");
-  console.log(`${m.a}: imported from esm module `);
+  console.log(`${m.a}: Imported from esm module `);
 }
 loadEsmModule();
