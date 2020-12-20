@@ -1,0 +1,1 @@
+module.exports = () =>  "loaded from commonjs Module";
